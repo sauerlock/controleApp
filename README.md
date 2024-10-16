@@ -50,5 +50,6 @@ git clone https://github.com/seu-usuario/controleapp.git
 cd controleapp
 ## Execute o arquivo principal da aplicação:
 python controleapp.py
-## Isso abrirá a interface gráfica do ControleApp.
+
+Isso abrirá a interface gráfica do ControleApp.
 
