@@ -23,9 +23,9 @@ pip install pyinstaller
 No diretório do projeto, execute o seguinte comando para gerar o executável:
 pyinstaller --onefile --windowed controleapp.py
 
-## O argumento --onefile garante que tudo seja compactado em um único executável.
-## O argumento --windowed (ou -w) oculta o terminal ao iniciar o aplicativo (importante para aplicações com interface gráfica).
-## O executável será gerado na pasta dist. Você pode distribuí-lo como um arquivo independente para outras pessoas, sem que elas precisem instalar Python.
+O argumento --onefile garante que tudo seja compactado em um único executável.
+O argumento --windowed (ou -w) oculta o terminal ao iniciar o aplicativo (importante para aplicações com interface gráfica).
+O executável será gerado na pasta dist. Você pode distribuí-lo como um arquivo independente para outras pessoas, sem que elas precisem instalar Python.
 
 ## Funcionalidades Principais
 Gerenciamento de Especialidades e Avaliações: Registra e exibe especialidades e suas avaliações correspondentes. As especialidades incluem Geral, Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, e Psicopedagogia.
