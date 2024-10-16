@@ -12,7 +12,7 @@ ControleApp é uma aplicação desktop desenvolvida em Python com a biblioteca P
 - Pandas
 
 ## Você pode instalar todas as dependências via `pip` com o seguinte comando:
-''pip install PyQt5 matplotlib pandas''
+´´pip install PyQt5 matplotlib pandas´´
 
 Gerar o Executável
 Para gerar um executável da aplicação (sem a necessidade de Python instalado para o usuário final), você pode utilizar o PyInstaller. Siga os passos abaixo:
