@@ -34,8 +34,6 @@ Interface Gráfica com PyQt5: A interface permite a interação amigável com as
 
 Exportação para Excel: A aplicação permite exportar os dados registrados para um arquivo Excel.
 
-Geração de Gráficos: Utilizando a biblioteca matplotlib, o sistema gera gráficos para visualização de tendências e dados registrados.
-
 Gerenciamento de Arquivos JSON: O sistema carrega e salva os dados localmente em arquivos JSON, o que facilita a persistência e manipulação offline dos dados.
 
 # Estrutura do Projeto
