@@ -23,7 +23,6 @@ import sys
 from datetime import datetime
 import json
 import pandas as pd
-import json
 from datetime import datetime
 
 class DataManager:
