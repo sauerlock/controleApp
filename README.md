@@ -4,14 +4,14 @@ ControleApp é uma aplicação desktop desenvolvida em Python com a biblioteca P
 
 ## Requisitos
 
-Para rodar o projeto, é necessário ter as seguintes dependências instaladas:
+## Para rodar o projeto, é necessário ter as seguintes dependências instaladas:
 
 - Python 3.x
 - PyQt5
 - Matplotlib
 - Pandas
 
-Você pode instalar todas as dependências via `pip` com o seguinte comando:
+## Você pode instalar todas as dependências via `pip` com o seguinte comando:
 
 ```bash
 pip install PyQt5 matplotlib pandas
