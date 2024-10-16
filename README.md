@@ -46,6 +46,7 @@ Gerenciamento de Arquivos JSON: O sistema carrega e salva os dados localmente em
 ## Execução sem gerar o executavel
 Clone o repositório para a sua máquina local:
 git clone https://github.com/seu-usuario/controleapp.git
+
 cd controleapp
 ## Execute o arquivo principal da aplicação:
 python controleapp.py
