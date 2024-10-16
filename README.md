@@ -19,9 +19,9 @@ Para gerar um executável da aplicação (sem a necessidade de Python instalado 
 
 ## Certifique-se de ter o PyInstaller instalado:
 
-pip install pyinstaller
+```pip install pyinstaller```
 No diretório do projeto, execute o seguinte comando para gerar o executável:
-pyinstaller --onefile --windowed controleapp.py
+```pyinstaller --onefile --windowed controleapp.py```
 
 O argumento --onefile garante que tudo seja compactado em um único executável.
 O argumento --windowed (ou -w) oculta o terminal ao iniciar o aplicativo (importante para aplicações com interface gráfica).
@@ -45,11 +45,11 @@ Gerenciamento de Arquivos JSON: O sistema carrega e salva os dados localmente em
 
 ## Execução sem gerar o executavel
 Clone o repositório para a sua máquina local:
-git clone https://github.com/seu-usuario/controleapp.git
+```git clone https://github.com/seu-usuario/controleapp.git```
 
-cd controleapp
+```cd controleapp```
 ## Execute o arquivo principal da aplicação:
-python controleapp.py
+```python controleapp.py```
 
 Isso abrirá a interface gráfica do ControleApp.
 
