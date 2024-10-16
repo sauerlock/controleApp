@@ -13,8 +13,6 @@ Licença: MIT License
 Contato: joaosauer@outlook.com
 """
 
-
-
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QVBoxLayout, QWidget, QPushButton, QLabel, QTableWidget,
     QTableWidgetItem, QLineEdit, QComboBox, QFormLayout, QFileDialog, QMessageBox,
@@ -24,10 +22,7 @@ from PyQt5.QtCore import Qt
 import sys
 from datetime import datetime
 import json
-import matplotlib.pyplot as plt
 import pandas as pd
-
-
 import json
 from datetime import datetime
 
@@ -195,27 +190,6 @@ class DataManager:
                 estoque.to_excel(writer, sheet_name='Estoque', index=False)
         except Exception as e:
             raise ValueError(f"Erro ao exportar para Excel: {e}")
-
-    def gerar_grafico(self, caminho_arquivo):
-        """Gera um gráfico de barras das quantidades em estoque."""
-        try:
-            import matplotlib.pyplot as plt  # Importa matplotlib aqui para evitar erro se matplotlib não estiver instalado
-
-            avaliacoes = list(self.dados["estoque"].keys())
-            quantidades = list(self.dados["estoque"].values())
-
-            plt.figure(figsize=(10, 6))
-            plt.bar(avaliacoes, quantidades, color='skyblue')
-            plt.xlabel('Avaliações')
-            plt.ylabel('Quantidade em Estoque')
-            plt.title('Quantidade em Estoque por Avaliação')
-            plt.xticks(rotation=90)
-            plt.tight_layout()
-            plt.savefig(caminho_arquivo)
-            plt.close()
-        except Exception as e:
-            raise ValueError(f"Erro ao gerar gráfico: {e}")
-
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -521,7 +495,7 @@ if __name__ == "__main__":
     mainWin = MainWindow()
     mainWin.show()
     sys.exit(app.exec_())
-=======
+    
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QVBoxLayout, QWidget, QPushButton, QLabel, QTableWidget,
     QTableWidgetItem, QLineEdit, QComboBox, QFormLayout, QFileDialog, QMessageBox,
@@ -531,7 +505,6 @@ from PyQt5.QtCore import Qt
 import sys
 from datetime import datetime
 import json
-import matplotlib.pyplot as plt
 import pandas as pd
 
 
@@ -702,27 +675,6 @@ class DataManager:
                 estoque.to_excel(writer, sheet_name='Estoque', index=False)
         except Exception as e:
             raise ValueError(f"Erro ao exportar para Excel: {e}")
-
-    def gerar_grafico(self, caminho_arquivo):
-        """Gera um gráfico de barras das quantidades em estoque."""
-        try:
-            import matplotlib.pyplot as plt  # Importa matplotlib aqui para evitar erro se matplotlib não estiver instalado
-
-            avaliacoes = list(self.dados["estoque"].keys())
-            quantidades = list(self.dados["estoque"].values())
-
-            plt.figure(figsize=(10, 6))
-            plt.bar(avaliacoes, quantidades, color='skyblue')
-            plt.xlabel('Avaliações')
-            plt.ylabel('Quantidade em Estoque')
-            plt.title('Quantidade em Estoque por Avaliação')
-            plt.xticks(rotation=90)
-            plt.tight_layout()
-            plt.savefig(caminho_arquivo)
-            plt.close()
-        except Exception as e:
-            raise ValueError(f"Erro ao gerar gráfico: {e}")
-
 
 class MainWindow(QMainWindow):
     def __init__(self):
