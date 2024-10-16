@@ -28,13 +28,13 @@ O argumento --windowed (ou -w) oculta o terminal ao iniciar o aplicativo (import
 O executável será gerado na pasta dist. Você pode distribuí-lo como um arquivo independente para outras pessoas, sem que elas precisem instalar Python.
 
 # Funcionalidades Principais
-## Gerenciamento de Especialidades e Avaliações: ### Registra e exibe especialidades e suas avaliações correspondentes. As especialidades incluem Geral, Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, e Psicopedagogia.
+Gerenciamento de Especialidades e Avaliações: Registra e exibe especialidades e suas avaliações correspondentes. As especialidades incluem Geral, Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, e Psicopedagogia.
 
-## Interface Gráfica com PyQt5: ### A interface permite a interação amigável com as funcionalidades do sistema, incluindo a inserção e visualização de dados através de formulários e tabelas.
+Interface Gráfica com PyQt5: A interface permite a interação amigável com as funcionalidades do sistema, incluindo a inserção e visualização de dados através de formulários e tabelas.
 
-## Exportação para Excel: ### A aplicação permite exportar os dados registrados para um arquivo Excel.
+Exportação para Excel: A aplicação permite exportar os dados registrados para um arquivo Excel.
 
-## Geração de Gráficos: ### Utilizando a biblioteca matplotlib, o sistema gera gráficos para visualização de tendências e dados registrados.
+Geração de Gráficos: Utilizando a biblioteca matplotlib, o sistema gera gráficos para visualização de tendências e dados registrados.
 
 Gerenciamento de Arquivos JSON: O sistema carrega e salva os dados localmente em arquivos JSON, o que facilita a persistência e manipulação offline dos dados.
 
